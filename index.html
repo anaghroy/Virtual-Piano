@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img id="cursor" src="./cursor-removebg-preview.png" alt="">
+      <div class="header">
+        <h1>🎹 Virtual Piano</h1>
+        <p>Click keys or use your keyboard to play</p>
+      </div>
+
+      <div class="piano-wrapper">
+        <div class="piano">
+          <div class="keys-container">
+            <!-- White Keys -->
+            <div class="key white-key" data-note="A0" data-key="a">
+              <span class="key-label">A</span>
+            </div>
+            <div class="key white-key" data-note="C1" data-key="s">
+              <span class="key-label">S</span>
+            </div>
+            <div class="key white-key" data-note="Ds1" data-key="d">
+              <span class="key-label">D</span>
+            </div>
+            <div class="key white-key" data-note="Fs1" data-key="f">
+              <span class="key-label">F</span>
+            </div>
+            <div class="key white-key" data-note="Fs2" data-key="g">
+              <span class="key-label">G</span>
+            </div>
+            <div class="key white-key" data-note="Fs3" data-key="h">
+              <span class="key-label">H</span>
+            </div>
+            <div class="key white-key" data-note="Fs4" data-key="j">
+              <span class="key-label">J</span>
+            </div>
+            <div class="key white-key" data-note="Fs5" data-key="k">
+              <span class="key-label">K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
